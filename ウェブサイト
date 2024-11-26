@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>検索数ランキングサイト</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>検索数ランキングサイト</h1>
+    </header>
+    <main>
+        <form id="search-form">
+            <input type="text" id="keyword" placeholder="検索キーワードを入力">
+            <button type="button" id="search-button">検索</button>
+        </form>
+        <section id="ranking">
+            <h2>現在のランキング</h2>
+            <ul id="ranking-list">
+                <!-- JavaScriptでランキングを動的に追加 -->
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>© 2024 検索数ランキングサイト</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
